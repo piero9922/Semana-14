@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/lista.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/1a2067ab3e.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Videos</title>
+  </head>
+  <body>
+    <header>
+      <section class="header">
+        <h1>VIDEO PACHA TV</h1>
+        <nav class="add">
+          <ul>
+            <li>
+              <a href="agregar.html">Agregar Video</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+    <main class="videos">
+      <h3>Lista de videos</h3>
+      <div id="article" class="article">
+        <div id="video" class="video">
+          <div class="content-video">
+            <a href="editar.html"><i class="far fa-edit"></i></a>
+            <iframe
+              id="view"
+              src="https://www.youtube.com/embed/7TKY-jksHRQ"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <a href=""><i id="borrar" class="fas fa-trash-alt"></i></a>
+          </div>
+          <h4>Programación</h4>
+          <small>0 visualizaciones</small>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. A mauris morbi
+            aliquam sollicitudin suspendisse feugiat. Et senectus eget nibh in. Nullam
+            ullamcorper gravida viverra turpis aliquam at ac risus proin. Dignissim
+            convallis risus, vestibulum.
+          </p>
+          <button>Ver Detalle</button>
+        </div>
+        <div id="video" class="video">
+          <div class="content-video">
+            <a href="editar.html"><i class="far fa-edit"></i></a>
+            <iframe
+              src="https://www.youtube.com/embed/rbuYtrNUxg4"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <a href=""><i id="borrar" class="fas fa-trash-alt"></i></a>
+          </div>
+          <h4>Programación</h4>
+          <small>0 visualizaciones</small>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. A mauris morbi
+            aliquam sollicitudin suspendisse feugiat. Et senectus eget nibh in. Nullam
+            ullamcorper gravida viverra turpis aliquam at ac risus proin. Dignissim
+            convallis risus, vestibulum.
+          </p>
+          <button>Ver Detalle</button>
+        </div>
+      </div>
+    </main>
+    <script src="../js/lista.js"></script>
+  </body>
+</html>
